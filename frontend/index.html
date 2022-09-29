@@ -4,9 +4,59 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>This is FRONTEND</title>
+	<title>align-self</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div id="root"></div>
+	<div id="root">
+
+		<h1>The CSS justify-self property sets the way a box is justified inside its alignment container along the appropriate axis.</h1>
+		<p>The effect of this property is dependent of the layout mode we are in:</p>
+		<ul>
+			<li>In block-level layouts, it aligns an item inside its containing block on the inline axis.</li>
+			<li>For absolutely-positioned elements, it aligns an item inside its containing block on the inline axis, accounting for the offset values of top, left, bottom, and right.</li>
+			<li>In table cell layouts, this property is ignored.</li>
+			<li>In flexbox layouts, this property is ignored.</li>
+			<li>In grid layouts, it aligns an item inside its grid area on the inline axis.</li>
+		</ul>
+
+		<div class="egy">
+			<div>Konténernek beállított alignment<br>(justify-items: stretch;)</div>
+			<div class="start">Start</div>
+			<div class="center">Center</div>
+			<div class="end">End</div>
+		</div>
+
+		<p>Basic keywords<br>
+			justify-self: auto;<br>
+			justify-self: normal;<br>
+			justify-self: stretch;<br>
+			<br>
+			Postion keywords<br>
+			justify-self: start;<br>
+			justify-self: end;<br>
+			justify-self: center;<br>
+			justify-self: left;<br>
+			justify-self: right;<br>
+			justify-self: flex-start;<br>
+			justify-self: flex-end;<br>
+			justify-self: self-start;<br>
+			justify-self: self-end;<br>
+			<br>
+			Baseline keywords<br>
+			justify-self: baseline;<br>
+			justify-self: first-baseline;<br>
+			justify-self: last-baseline;<br>
+			<br>
+			Overflow keywords<br>
+			justify-self: safe center;<br>
+			justify-self: unsafe center;<br>
+			<br>
+			Global keywords<br>
+			justify-self: inherit;<br>
+			justify-self: initial;<br>
+			justify-self: unset;</p>
+
+	</div>
 </body>
 </html>
